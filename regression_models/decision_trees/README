@@ -1,0 +1,8 @@
+CART - classification and regression Trees
+DT(decision trees) 
+  1. splits datasets based on information entropy into leaves (leaf)
+  2. new data points in that deaf will have the y as average of y for all the points in that leaf
+
+Feature scaling is not needed
+
+Not good for data with single features
