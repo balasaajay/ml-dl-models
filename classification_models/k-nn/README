@@ -1,0 +1,3 @@
+- Uses euclidean distance to determine distance between points
+- KNN  is compute intensive
+- Prediciton boundary is non-linear
