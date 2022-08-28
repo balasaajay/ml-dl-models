@@ -1,0 +1,5 @@
+- Finds the best decision boundary
+- Finds maximum margin with support vectors
+- Max margin classifier/hyperplane, Positive hyperplane and negative hyperplane
+- Looks at extreme cases close to boundary to build the prediction boundary
+- Can be linear or non linear based on kernel selected
