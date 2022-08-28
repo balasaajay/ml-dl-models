@@ -1,0 +1,10 @@
+Random forest is a techniqe in ensemble learning
+
+Step 1: pick random K data points from dataset (bootstrapping dataset)
+step 2: Build a decision tree for these K
+step 3: choose a number N tree of trees you want to build and tepeat steps 1 & 2
+step 4: for new data point, make each one of Ntree trees predict the value of Y and assign new data point the average across all predicted vals
+
+Bagging = Booststrapping + aggregating
+Out-of-bag dataset - datasets that got missed in bagging process. can be used to measure model accuracy
+to optimize - use more features in each step

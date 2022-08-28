@@ -1,0 +1,13 @@
+R Squared 
+adjusted R squared
+RMSE (root mean squared error)
+Absolure RMSE
+
+
+Ex:
+from sklearn.metrics import r2_score
+r2_score(y_test, y_pred)
+
+How to select best model?
+- Try all the models and pick the one with best r2 score
+- Usually, random forest models tend to do better over other regression models learned here
