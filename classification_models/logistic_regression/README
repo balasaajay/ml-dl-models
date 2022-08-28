@@ -1,0 +1,4 @@
+Log Res is a linear classifier model 
+Prediction boundary is a straight line
+Can use ListedColormap from matplotlib.colors to plot classifiers
+
