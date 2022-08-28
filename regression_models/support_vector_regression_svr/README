@@ -1,0 +1,4 @@
+1. Has epsilon-insensitive tube. 
+2. epsilon error can be ignored 
+3. SVR cannot catch outliers
+4. Good for linear or non-linear 
