@@ -1,0 +1,10 @@
+Kernel SVM
+
+- Can be used when data is not linearly seperable
+- non-linearly seperable data with incresed dimensions can become linearly seperable
+- but, higher dimensions is resource intensive. Kernel trick will help here.
+
+Kernel trick:
+- Gaussian RBF kernel - radial basis function
+- Sigmoid kernel - similar to sigmoid function
+- Polynomial Kernel
