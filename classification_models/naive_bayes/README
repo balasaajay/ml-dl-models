@@ -1,0 +1,11 @@
+Bayes Theorem:
+
+- P(A/B) = (P(B/A) * P(A)) / P(B)
+
+Naive Bayes:
+- WHy "Naive"?  - because it assumes independent assumptions
+- P(X) - marginal likelihood
+    - Likelihood a randomly selected data point from dataset exhibits features similar to data we are about to add
+- More than 2 features? - more compute intensive
+- Non-linear classifier
+- Less overfitting

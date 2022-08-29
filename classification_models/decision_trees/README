@@ -1,0 +1,4 @@
+- Splits data into multiple Splits
+- split tries to minimize informational entropy
+- split to maximize the num of points of one category
+- Used in Random forest, gradient boosting
