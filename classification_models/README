@@ -1,0 +1,33 @@
+Metrics for classification_models
+
+1. False Postitives and negatives
+  1. False Postitives - we predicted +ve outcome but it was False
+  2. False Negative - we predicted -ve but it is true
+
+2. Confusion Matrix:
+  1. Accuracy rate = correct/total
+    - just accuracy rate is not good. (Accuracy paradox -> solved by CAP curve)
+  2. Error rate = wrong/total
+
+3. CAP Curve (cumulative accuracy profile)
+  - area under the model curve
+  - randome model vs good model vs perfect model
+  - AR = (aP/aR)
+  - aP - area under perfect model - area under random model
+  - aR - area under good model - area under random model
+  Note: CAP vs ROC 
+   - receiver operating characteristic (ROC)
+  
+NOTES:
+
+If your problem is linear, you should go for Logistic Regression or SVM.
+
+If your problem is non linear, you should go for K-NN, Naive Bayes, Decision Tree or Random Forest.
+
+Logistic Regression or Naive Bayes when you want to rank your predictions by their probability.
+
+SVM when you want to predict to which segment your customers belong to.
+
+Decision Tree when you want to have clear interpretation of your model results
+
+Random Forest when you are just looking for high performance with less need for interpretation.
