@@ -1,0 +1,22 @@
+Hierarchial clustering
+2 types:
+  1. Agglomerative (Bottom-up)
+  2. Divisive (top-down)
+
+
+Agglomerative HC:
+Step 1: Make each data point a cluster => N clusters
+2: take two closest data points and make them one cluster => N-1 clusters
+3: take 2 closest clusters and make them one cluster => N-2 clusters
+4: repeat step-3 until there is only one cluster
+
+Distance between clusters 
+1. Eucledian Distance
+
+- Data is stored in Dendrograms 
+  - set dissimilarity threashold to break into sclusters
+  - number of clusters from the number of points the threshold line crosses
+  - take threshold that crosses the largest vertical distance line
+  - 
+
+ 

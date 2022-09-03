@@ -1,0 +1,12 @@
+K-MEans:
+
+  Pros:
+    1. Simple to understand, easily adaptable,works well on small or large datasets,fast, efficient and performant
+  Cons:
+    1. Need to choose the number of clusters
+
+Hierarchial Clustering:
+  Pros:
+    1. The optimal number of clusters can be obtained by the model itself, practical visualisation with the dendrogram
+  Cons:
+    1. Not appropriate for large datasets
