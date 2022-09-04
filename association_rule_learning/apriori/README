@@ -1,0 +1,30 @@
+Apriori
+
+- people who bought/see something also bought/see something else
+- association rule
+- identify strong rules
+
+Algo has 3 parts:
+  1. Support
+  2. Confidence
+  3. lift
+
+Movie recommend:  
+Find support: setup minimum support and confidence
+support(M) = (# of user watchlists containing a movie)/(# of user watchlists)
+
+Find confidence: 
+confidence(M1 -> M2) = (# of user watchlists containing M1 and M2)/(# of user watchlists containing M1)
+
+lift(M1 -> M2) = confidence(M1->M2)/support(M1->M2)
+
+Apriori:
+1. Set minimum support & confidence
+2. Take all subsets in transactions having higher support than minimum support
+3. Take all the rules of these subsets having higher confidence than minimum confidence
+4. sort the rules by decreasing lift
+
+- Recommender systems use this algo with other algos and modifications
+
+
+
