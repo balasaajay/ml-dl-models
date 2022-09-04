@@ -1,0 +1,10 @@
+Eclat Model:
+
+- Only support (no confidence/lift)
+
+
+Steps:
+1. set a minum support
+2. take all subsets in transactions having higher support then minimum support
+3. sort subsets by decreasing support.
+
