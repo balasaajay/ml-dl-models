@@ -91,20 +91,9 @@ model.fit(X_train, y_train, epochs = 200)
 # Collect model metrics
 loss, accuracy = model.evaluate(X_test, y_test)
 
-print("Model trained!")
-# Dictionary and Vectorizer pickle files can be used to load the model and serve as API
-
-# Save and server hte model using tf serving
-model.save('restaurant_reviews_model/1') # saves model in protobuf format
-# variables stores the weights of the models
-
-# Save vectorizer in pickle file
-vectorizer_file = "tf-idf-vector-tfk.pickle"
-pickle.dump(vectorizer, open(vectorizer_file, 'wb'))
-
-# Validate the model
-test_input = ['very bad']
-test_input_vectorized = vectorizer.transform(test_input).toarray()
-y_test_pred = model(test_input_vectorized)[:, 1]
-print(y_test_pred)
-# very low number = negative sentiment
+# # Validate the model
+# test_input = ['very bad']
+# test_input_vectorized = vectorizer.transform(test_input).toarray()
+# y_test_pred = model(test_input_vectorized)[:, 1]
+# print(y_test_pred)
+# # very low number = negative sentiment
