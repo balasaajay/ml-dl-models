@@ -1,0 +1,20 @@
+NLP:
+
+- Types
+  1. NLP
+  2. Deep NLP (Seq2Seq models - powerful models)
+
+- Classical vs Deep Learning
+1. If/else rules (chatbots) - very Old
+2. Audio freq component analysis (Speech recognition) (Non deep learning)
+  - try to identify wave forms from some speech samples with predefined samples
+  - mathematical comparision 
+  - no neural networks
+3. Bag of Words model (Classification)
+  - classify words with +ve or -ve results
+4. Convolutional NN for text recognition (classification)
+  - mostly used for image recognition/ video processing
+  - words embedded into matrix and same logic as images are applied
+5. TF-IDF model
+6. Seq2Seq (many apps)
+

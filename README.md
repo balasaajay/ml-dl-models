@@ -6,7 +6,7 @@ Concepts and Algos:
 ml-model-templates
 ├── LICENSE
 ├── README.md
-├── association_rule_learning
+├── association_rule_learning  # People who bought/saw this also bought/saw ...
 │   ├── README
 │   ├── apriori
 │   └── eclat
@@ -20,13 +20,17 @@ ml-model-templates
 │   ├── naive_bayes
 │   ├── random_forest
 │   └── svm_classifier
-├── clustering
+├── clustering                # Group data into clusters
 │   ├── README
 │   ├── hierarchial-clustering
 │   └── k-means
 ├── data_preprocessing
 │   ├── Data.csv
 │   └── data_pre_process_template.py
+├── natural_lang_processing_NLP # NLP model with deep learning using TF
+│   ├── README
+│   ├── Restaurant_Reviews.tsv
+│   └── nlp_tf-idf_model.py
 ├── regression_models
 │   ├── decision_trees
 │   ├── evaluating_regression_models
@@ -35,7 +39,7 @@ ml-model-templates
 │   ├── random_forest
 │   ├── simple_linear_regression
 │   └── support_vector_regression_svr
-└── reinforcement_learning
+└── reinforcement_learning    # correct actions will be rewarded and incorrect will be punished
     ├── README
     ├── thompson_sampling
     └── upper_confidence_bound
