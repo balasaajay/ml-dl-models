@@ -8,3 +8,17 @@ Multi armed bandit problem
 - regrest is when the output os non-optimal
 - identify which ad will maximize profits and gets max clicks
 
+UCB vs Thompson
+
+UCB:
+1. Deterministic algo - straightforward, no randomness
+2. requires update every round - value incorporated for next round
+
+Thompson:
+1. Probabilistic algo - we generate random values, different everytime
+2. It can accomodate delayed feedback - not needed to update algo everytime
+3. Faster than UCB
+
+
+UCB needs 1000 to identify the ad
+Thompson sampling was able to find it in 500 runs
