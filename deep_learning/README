@@ -1,0 +1,13 @@
+Deep learning uses: 
+  Artificial Neural Networks for Regression and Classification
+  Convolutional Neural Networks for Computer Vision
+  Recurrent Neural Networks for Time Series Analysis
+  Self Organizing Maps for Feature Extraction
+  Deep Boltzmann Machines for Recommendation Systems
+  Auto Encoders for Recommendation Systems
+
+What is Deep learning?
+- Geoffrey Hinton
+- we create artificial neural network where we have nodes/neurons
+- Deep learning has multiple hidden layers
+

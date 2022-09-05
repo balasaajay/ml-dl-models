@@ -1,7 +1,7 @@
 # ml-model-templates
 Templates and model structure
 
-Concepts and Algos:
+## Concepts and Algos:
 ```
 ml-model-templates
 ├── LICENSE
@@ -27,6 +27,9 @@ ml-model-templates
 ├── data_preprocessing
 │   ├── Data.csv
 │   └── data_pre_process_template.py
+├── deep_learning           # Build Arificial NN and Convolutional NN
+│   ├── README
+│   └── artificial_neural_network
 ├── natural_lang_processing_NLP # NLP model with deep learning using TF
 │   ├── README
 │   ├── Restaurant_Reviews.tsv
@@ -44,3 +47,13 @@ ml-model-templates
     ├── thompson_sampling
     └── upper_confidence_bound
 ```
+
+## Projects
+
+1. Social network Ads (Classification)
+2. Salary predictor (Regression)
+3. Grocery cart optimization (Association Rule learning)
+4. Mall customers buy sentiment (Clustering)
+5. Ads optimization (Reinforcement learning)
+6. Restaurant reviews (Deep NLP)
+7. Bank customers Modelling (Artificial NN)
