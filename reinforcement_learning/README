@@ -1,0 +1,10 @@
+Reinforcement learning
+- widely used in robotics
+- good actions will be rewarded and bad will be punished
+
+
+Multi armed bandit problem
+- explore and exploit otherwise regret
+- regrest is when the output os non-optimal
+- identify which ad will maximize profits and gets max clicks
+

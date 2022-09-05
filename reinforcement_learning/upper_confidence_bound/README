@@ -1,0 +1,6 @@
+Upper confidence Bound (UCB)
+
+the Upper Confidence Bound (UCB) algorithm modifies its levels of exploration and exploitation. Initially, when it has little knowledge of the available actions, and a low confidence in the best actions to take, the exploration part of its equation causes it to search through the set of all possible actions.
+
+As exploration progresses better estimates are formed for the rewards given by each action. Therefore the level of exploration can be decreased and the use of the good actions that have been found can increase. Gradually the focus of the algorithm swings from exploration to favour exploitation. 
+
