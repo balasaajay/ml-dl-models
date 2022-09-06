@@ -1,0 +1,62 @@
+Convolutional Neural netrowks
+
+- What are CNNs?
+  1. based on the features, categorize the image
+  2. can recognize faces, emotions
+  3. Image has pixel - dimensions based on b/w or colored
+
+- Step 1 - Convolution operation, ReLU layer
+    Part 1: 
+      - Integration of two functions
+      - shows how one function modifies another
+      - feature detector/Kernel/filter (ex: 3x3 matrices)
+      - Input Image (convolutional operator) Feature detector = feature Map (or convolved feature or activation map)
+      - Calculate for 1 increment strides
+      - Reduces size of the image -> easier/faster to process
+      - some info is lost but detect some features (where you get highest number after convolution)
+      - Create multiple featuremaps using different filters
+      - Different Feature detectors for blurring, edge enhancer, sharpening, Edge detect, emboss
+      - Edge detect is import for CNN
+    Part 2: ReLU
+      - Apply Rectifier function on the convolutional layer output
+      - Reason: Increase non linearity in the network. Rectifier breaks linearity
+      - Ex: ReLU removes negative values (Black) 
+      - Parametric ReLU for better perf
+
+- Step 2 - Max Pooling 
+  - Pooling/down sampling -> detecting features in distorted images
+  - spatial invariance - doesnt care if features are distorted - tilted, closer, far
+  - Preserves main features we are after
+  - convolved feature map --max pooling--> pooled feature map
+  - How? - take the max (since max pooling) value of pixel in a 2x2 section(stride 2) of feature map and create a pooled feature map
+  - By taking max - we are accouting for distortions. Pooled feature will be same for distortions.
+  - reduces the size by 75% (approx), reduces number of params -> reduce chance of overfitting
+  - Other options - average pooling/sub sampling, min pooling, mean pooling
+ 
+- Step 3 - Flattening
+  - Pooled feature map(ex:3x3) --flattened--> output (9X1) 
+  - converts to single column
+
+- Step 4 - Full connection
+  - adds ANN to CNN
+  - CNN has fully connected hidden layers
+  - After flattening data goes through ANN
+  - In the back propagation:
+    1. weights are adjusted in ANN
+    2. Feature detectors are adjusted/trained
+  - neurons in the final hidden layer get to vote which helps the output layer
+
+- Summary of CNN:
+  input image + convolutional layer  + Pooling layer + Flatterning + Fully connected ANN --> output
+                    + ReLU layer 
+
+- Softmax and Cross-Entropy
+  - Softmax function helps identifying the probabilities in the output layer based on values
+    - The softmax function squashes the outputs of each unit to be between 0 and 1. 
+    - It also divides each output such that the total sum of the outputs is equal to 1. 
+    - This is why it is used in output layer.
+  - Cross entropy function (loss function)
+    - In CNN - Cross entropy function is a loss function and it should be minimized to maximize the perf of our CNN.
+    - Classification error is not a good metric - doesnt take predicted probabilities into account
+    - MSE (mean squared error) - More accurate, probably better for regression models
+    - Cross entropy - More accurate, helps gradient descent convergence better/faster than MSE, takes a log, improves network perf significantly, better for classification
