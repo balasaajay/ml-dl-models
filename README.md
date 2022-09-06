@@ -29,7 +29,8 @@ ml-model-templates
 │   └── data_pre_process_template.py
 ├── deep_learning           # Build Arificial NN and Convolutional NN
 │   ├── README
-│   └── artificial_neural_network
+│   ├── artificial_neural_network
+│   └── convolutional_neural_network
 ├── natural_lang_processing_NLP # NLP model with deep learning using TF
 │   ├── README
 │   ├── Restaurant_Reviews.tsv
@@ -57,3 +58,4 @@ ml-model-templates
 5. Ads optimization (Reinforcement learning)
 6. Restaurant reviews (Deep NLP)
 7. Bank customers Modelling (Artificial NN)
+8. Image classifier - Cats/Dogs (Convolutional Neural Network)
