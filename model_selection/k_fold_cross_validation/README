@@ -1,0 +1,19 @@
+k-fold Cross-Validation:
+
+1. Cross-validation is a statistical method/resampling procedure used to estimate the skill of machine learning models.
+2. It is commonly used in applied machine learning to compare and select a model for a given predictive modeling problem because it is easy to understand, easy to implement, and results in skill estimates that generally have a lower bias than other methods.
+3. Trains on 10 different test sets ad calculates accuracies individually
+
+The general procedure is as follows:
+
+  Shuffle the dataset randomly.
+  Split the dataset into k groups
+  For each unique group:
+  Take the group as a hold out or test data set
+  Take the remaining groups as a training data set
+  Fit a model on the training set and evaluate it on the test set
+  Retain the evaluation score and discard the model
+  Summarize the skill of the model using the sample of model evaluation scores
+
+Why?
+ It generally results in a less biased or less optimistic estimate of the model skill

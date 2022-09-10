@@ -35,6 +35,13 @@ ml-model-templates
 │   ├── README
 │   ├── Restaurant_Reviews.tsv
 │   └── nlp_tf-idf_model.py
+├── model_selection    # Select best model and best hyperparameters
+│   ├── grid_search
+│   └── k_fold_cross_validation
+├── dimensionality_reduction
+│   ├── kernel_pca
+│   ├── linear_discriminant_analysis
+│   └── principal_component_analysis
 ├── regression_models
 │   ├── decision_trees
 │   ├── evaluating_regression_models
@@ -51,7 +58,7 @@ ml-model-templates
 
 ## Projects
 
-1. Social network Ads (Classification)
+1. Social network Ads (Classification, Model/Hyper params selection)
    Dataset: https://www.kaggle.com/datasets/d4rklucif3r/social-network-ads 
 2. Salary predictor (Regression)
    Dataset: https://www.kaggle.com/code/arpit3043/predicting-position-and-salaries-by-svr/data 
@@ -67,6 +74,6 @@ ml-model-templates
    Dataset: https://www.kaggle.com/code/kmalit/bank-customer-churn-prediction/data
 8. Image classifier - Cats/Dogs (Convolutional Neural Network)
    Dataset - https://www.kaggle.com/c/dogs-vs-cats
-9. Determine origin of wines - 
+9. Determine origin of wines -  (Dimensionality Reduction)
    Dataset: https://archive.ics.uci.edu/ml/datasets/wine (Modified)
 
