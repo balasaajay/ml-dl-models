@@ -1,5 +1,5 @@
-# ml-model-templates
-Templates and model structure
+# Models
+ML/Deep Learning Models
 
 ## Concepts and Algos:
 ```
