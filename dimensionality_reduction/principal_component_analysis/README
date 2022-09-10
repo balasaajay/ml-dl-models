@@ -1,0 +1,11 @@
+PCA:
+- Feature extraction technique
+- Used in operations such as:
+  noise filtering, visualization, feature extraction, stock market predictions, gene data analysis
+
+Goal of PCA:
+- identify patterns in the data
+- Detect correlation between variables
+- reduce dimensions of a dataset
+- learns relation ship between X and Y vals
+- weakness: highly affected by outliers in the data
