@@ -8,4 +8,5 @@ Goal of PCA:
 - Detect correlation between variables
 - reduce dimensions of a dataset
 - learns relation ship between X and Y vals
+- PCA is unsupervised
 - weakness: highly affected by outliers in the data
