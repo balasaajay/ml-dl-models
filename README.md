@@ -10,6 +10,8 @@ ml-model-templates
 │   ├── README
 │   ├── apriori
 │   └── eclat
+├── XGBoost
+│   └── xgb_classifier
 ├── classification_models
 │   ├── README
 │   ├── Social_Network_Ads.csv
@@ -76,4 +78,5 @@ ml-model-templates
    Dataset - https://www.kaggle.com/c/dogs-vs-cats
 9. Determine origin of wines -  (Dimensionality Reduction)
    Dataset: https://archive.ics.uci.edu/ml/datasets/wine (Modified)
-
+10. Predicting the stage of breast cancer 
+    Dataset - https://www.kaggle.com/datasets/ninjacoding/breast-cancer-wisconsin-benign-or-malignant
